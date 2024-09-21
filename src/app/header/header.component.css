@@ -1,0 +1,10 @@
+/* .jumbotron{
+  padding: 2rem 1rem;
+  background-color: #c2e7f2;
+} */
+.hero-custom {
+  background-color: #c2e7f2; /* Replace with your desired color */
+  color: #46494a;
+  padding: 2rem 1rem; /* Adjust padding as needed */
+  text-align: center; /* Center text */
+}

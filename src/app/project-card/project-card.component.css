@@ -1,0 +1,13 @@
+.tag{
+  padding: 0 20px;
+  height: 30px;
+  width: fit-content;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 25px;
+  background-color: #4eccf2;
+  color: #425054;
+}
+.card-header{
+  background-color: #a5bec2;
+}

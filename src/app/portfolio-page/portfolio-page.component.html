@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+  <!-- <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;">
+    <app-project-card [projectName]="'Simon Game'" [projectNumber]="'1'"></app-project-card>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;">
+    <app-project-card  [projectName]="'Library Management System'" [projectNumber]="'2'"></app-project-card>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;">
+    <app-project-card [projectName]="'Dice Game'" [projectNumber]="'3'"></app-project-card>
+  </div> -->
+
+
+  <div class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 380px;" *ngFor="let p of projectData">
+    <app-project-card
+    [projectName]="p.projectName"
+    [projectNumber]="p.projectNumber"
+    [projectDescription]="p.projectDescription"
+    [projectTech]="p.projectTech" ></app-project-card>
+  </div>
+  </div>
+</div>
+

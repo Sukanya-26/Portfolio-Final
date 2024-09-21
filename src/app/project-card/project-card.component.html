@@ -1,0 +1,16 @@
+<div class="card text-center" style="max-width: 350px; min-width: 350px">
+  <div class="card-header">
+    Project-{{projectNumber}}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{projectName}}</h5>
+    <p class="card-text">{{projectDescription}}</p>
+    <button class="btn btn-secondary" (click)="loadChild()">View More</button>
+    <ng-container #container></ng-container>
+  </div>
+  <div class="card-footer">
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="tag me-2 mb-1">{{projectTech}}</div>
+    </div>
+  </div>
+</div>
