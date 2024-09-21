@@ -26,8 +26,8 @@ h1 {
 }
 
 h2 {
-  background: #70b0f5;
-  color: white;
+  background: #a0bdc2;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
@@ -40,7 +40,7 @@ h3 {
 h4 {
   margin: 0;
   font-weight: normal;
-  color: #666;
+  color: black;
 }
 
 .section {
@@ -75,8 +75,8 @@ ul {
 .btn {
   padding: 10px 20px;
   font-size: 16px;
-  color: white;
-  background-color: #70b0f5;
+  color: black;
+  background-color: #a0bdc2;
   border: none;
   border-radius: 5px;
   cursor: pointer;
